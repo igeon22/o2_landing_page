@@ -25,14 +25,14 @@ ul{
     padding: 0;
     align-items: center;
     margin: 0;
-    gap: 10px;
+    gap: 20px;
 }
 
 a{
     text-decoration: none;
     color: #E5E7EB;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0;
 }
 
@@ -64,6 +64,7 @@ a{
     flex-wrap: wrap;
 }
 
+
 .pres-txt p,.block p{
     font-size: 18px;
     color: #E5E7EB;
@@ -75,13 +76,14 @@ a{
     text-align: center;
 }
 
-.pres-txt button{
+.pres-txt button, .call button{
     background-color: #3882F6;
     color: white;
     border: none;
     padding: 5px 25px;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
     
 }
 
@@ -137,4 +139,74 @@ img{
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding:5% 20%;
+}
+
+.quote-txt{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.author{
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+.call{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    width: 60%;
+    margin: 60px auto;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px 8%;
+    color: #efeded;
+
+}
+
+.call button{
+    border: 1px solid white;
+
+}
+
+.main-msg{
+    font-weight: bold;
+}
+
+.call p{
+    margin: 0;
+}
+
+.txt-c{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: auto;
+}
+
+.sec-msg{
+    font-size:0.9rem;
+}
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
 }
